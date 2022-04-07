@@ -1,0 +1,27 @@
+Task List
+=========
+X Create testing environment by generates specific types of Dice
+
+Constructors:
+X Writing Tests and implements checking for valid constructors
+	X Check for valid inputs
+	X Initialize variables
+
+roll() function:
+X Writing Tests and implements for roll() function
+	X Check for Exceptions
+	X Call the roll() method from Die class with correct number of times
+	X Check if the skipping turn condition is met(switch turn if met)
+	X Check if the winning condition is met(end game if met)
+	X Otherwise return Dice result
+
+hold() function:
+X Writing Tests and implements for hold() function
+X Implements the hold() function:
+	X Check for Exceptions (both if the game is still active and roll() before hold())
+	X Save up the player's score
+	X Switch Turns
+
+X Creating helper methods(refacotring)
+	X Switch Turn and Exception check for endGame
+	X Clean up and format the codes
